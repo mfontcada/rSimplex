@@ -9,18 +9,7 @@ library(rSimplex)
 
 ### Example
 
-$$
-\begin{equation}
-\begin{matrix}
-\max & Z = 5x_1 + 4x_2 \\[15pt]
-\textrm{s.t.} & 6x_1 + 4x_2 \leq 24 \\[10pt]
-& x_1 + 2x_2 \leq 6 \\[10pt]
-& -x_1 + x_2 \leq 1 \\[10pt]
-& x_2 \leq 2 \\[10pt]
-& x_1, x_2 \geq 0 \\[10pt]
-\end{matrix}
-\end{equation}
-$$
+![math][example.jpg]
 
 ```r
 variables <- c("X1", "X2")
