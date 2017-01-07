@@ -9,7 +9,7 @@ library(rSimplex)
 
 ### Example
 
-![math][example.jpg]
+![](example.jpg)
 
 ```r
 variables <- c("X1", "X2")
